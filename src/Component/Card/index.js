@@ -7,11 +7,15 @@ class Card extends React.Component {
       width: "16rem",
     };
 
+    // tekrarlamamaq uchun obyekt desctruction da istifade etmek olar 
+    // let {img, title, content} = this.props.user ile
+
     return (
       <div className="col-md-3 mr-5">
         <div className="card mb-5" style={inlineStyle}>
           <img
             src={this.props.user.img}
+            // src={img}
             class="card-img-top"
             alt="..."
           />
