@@ -6,9 +6,9 @@ export class Nav extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <span className="navbar-brand">
             Navbar
-          </a>
+          </span>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,17 +23,17 @@ export class Nav extends React.Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <span className="nav-link active" aria-current="page" href="#">
                   Home
-                </a>
+                </span>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <span className="nav-link" href="#">
                   Link
-                </a>
+                </span>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <span
                   className="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
@@ -42,33 +42,33 @@ export class Nav extends React.Component {
                   aria-expanded="false"
                 >
                   Dropdown
-                </a>
+                </span>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <span className="dropdown-item" href="#">
                       Action
-                    </a>
+                    </span>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <span className="dropdown-item" href="#">
                       Another action
-                    </a>
+                    </span>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <span className="dropdown-item" href="#">
                       Something else here
-                    </a>
+                    </span>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
+                <span className="nav-link disabled">Disabled</span>
               </li>
             </ul>
-            <Search />
+            {this.props.isSearchPanel && <Search />}
           </div>
         </div>
       </nav>

@@ -2,10 +2,14 @@ import React from "react";
 import {Nav} from "./Nav/index"
 
 class Header extends React.Component{
+
+    constructor(props) {
+        super(props)
+    }
     render(){
         return(
             <header>
-            <Nav />
+            <Nav isSearchPanel = {this.props.isSearchPanel} />
           </header>
         )
     }
