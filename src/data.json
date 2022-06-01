@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "Card title",
+      "img": "https://images.samsung.com/is/image/samsung/ru-ur55-lu28r550uqixci-frontblack-205854114?$720_576_PNG$",
+      "content": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    },
+    {
+        "title": "Card title",
+        "img": "https://images.samsung.com/is/image/samsung/ru-ur55-lu28r550uqixci-frontblack-205854114?$720_576_PNG$",
+        "content": "Some2 quick example text to build on the card title and make up the bulk of the card's content."
+      },
+      {
+        "title": "Card title",
+        "img": "https://images.samsung.com/is/image/samsung/ru-ur55-lu28r550uqixci-frontblack-205854114?$720_576_PNG$",
+        "content": "Some3 quick example text to build on the card title and make up the bulk of the card's content."
+      },
+      {
+        "title": "Card title",
+        "img": "https://images.samsung.com/is/image/samsung/ru-ur55-lu28r550uqixci-frontblack-205854114?$720_576_PNG$",
+        "content": "Some44 quick example text to build on the card title and make up the bulk of the card's content."
+      },
+      {
+        "title": "Card title",
+        "img": "https://images.samsung.com/is/image/samsung/ru-ur55-lu28r550uqixci-frontblack-205854114?$720_576_PNG$",
+        "content": "Some5 quick example text to build on the card title and make up the bulk of the card's content."
+      },
+      {
+        "title": "Card title",
+        "img": "https://images.samsung.com/is/image/samsung/ru-ur55-lu28r550uqixci-frontblack-205854114?$720_576_PNG$",
+        "content": "Some6 quick example text to build on the card title and make up the bulk of the card's content."
+      }
+  ]
+}
